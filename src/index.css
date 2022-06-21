@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  margin: 0;
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+}
+
+code {
+  font-family: 'Poppins', sans-serif;
+}
+
+.login-section h1 {
+  font-weight: 500;
+  font-size: 32px;
+  width: auto;
+  text-align: center;
+  margin: 0em 0 0.5em 0;
+  padding-bottom: 0.5em;
+  /* border-bottom: 3px solid #8263ed; */
+  color: #584a89;
+}
+
+.navigate#navigate nav {
+  background-color: #584a89 !important;
+}
+
+.navigate#navigate ul {
+  margin-left: auto;
+}
+
+.navigate#navigate nav a {
+  color: #fff;
+}
+
+.navigate#navigate nav .nav-item .active a, .navigate#navigate nav .nav-item a:hover, .navigate#navigate nav .active a:focus {
+  font-weight: 500;
+}
+
+.signin-section h1 {
+  text-align: center;
+  font-size: 25px;
+  width: fit-content;
+  margin: 5em auto;
+  border: 5px solid rgb(4, 154, 4);
+  padding: 2em;
+}
+
+/* .login-section h1::after {
+  content: "";
+  border-bottom: 3px solid #8263ed;
+  width: 4%;
+  position: absolute;
+  top: 25%;
+  left: 48%;
+  z-index: 999999;
+} */
+
+/* @media screen and (min-width: 1024px) {
+  .login-section .container {
+       max-width: 540px;
+      border: 1px solid #ccc;
+      margin: 2em auto; 
+      border-left: 5px solid #073a58;
+      padding: 2em 2em;
+      position: absolute;
+    }
+} */
+
+.border-class {
+          border: 1px solid #ccc;
+          margin: 6em auto 2em auto;
+          border-left: 5px solid #073a58;
+          padding: 2em 2em;
+          background: #f7f7f7;
+}
+
+.form-outline {
+  background-color: #ccc;
+}
+
+.dateof {
+  padding: 0;
+}
+
+.dateof input[type="date"] {
+  font-family: 'Poppins', sans-serif;
+  padding: 0.2em 0.5em;
+  width: 100%;
+}
+
+.register-form input[type="text"], .register-form input[type="password"], .register-form input[type="email"] {
+  border: 1px solid #ccc;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"],
+.login-form input[type="email"] {
+  border: 1px solid #ccc;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  width: 24em;
+}
+
+.hide, .offscreen {
+  display: none !important;
+}
+
+.successful-login h2 {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.successful-login a, .successful-login p {
+  text-align: center;
+  color: #584a89;
+  font-size: 24px;
+}
+
+span.validatename, label.fullname, .validatename {
+  display: flex;
+  align-items: center;
+}
+
+span.unchecked.invalid {
+  color: #ff0000;
+  margin-left: 0.3em;
+}
+
+span.valid.checked {
+  color: #24d724;
+    margin-left: 0.3em;
+}
+
+.validatename svg {
+  color: #bfbf0f;
+  margin-right: 0.5em;
+}
+
+#pwdnote {
+  display: flex;
+  align-items: baseline;
+  text-align: justify; 
+}
+
+#pwdnote svg {
+  width: 6%;
+  margin-right: 0.5em;
+  color: #bfbf0f;
+  margin-top: 0.5rem;
+}
+
+.form-check {
+  margin-top: 0.5em;
+}
+
+#confirmpwdnote {
+  display: flex;
+  align-items: center;
+}
+
+#confirmpwdnote svg {
+  width: 6%;
+  margin-right: 0.5em;
+  color: #bfbf0f;
+  margin-top: 0rem;
+}
+
+#mailnote, #confirmpwdnote, #pwdnote {
+  margin-top: 0.5rem;
+}
+
+#mailnote svg {
+  width: 6%;
+  margin-right: 0.5em;
+  color: #bfbf0f;
+  margin-top: 0rem;
+}
+
+#gendernote svg {
+  width: 6%;
+  margin-right: 0.5em;
+  color: #bfbf0f;
+  margin-top: 0rem;
+}
+
+.imp-char {
+  font-weight: 500;
+}
+
+label {
+  color: #073a58;
+}
+
+label.my-label {
+  font-weight: 500;
+}
+
+@media screen and (max-width: 767px) {
+  .login-section .container {
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+}
