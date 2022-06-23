@@ -10,6 +10,10 @@ code {
   font-family: 'Poppins', sans-serif;
 }
 
+.logo-img {
+  filter: brightness(200%) contrast(200%) saturate(0%) blur(0px) hue-rotate(0deg);
+}
+
 .login-section h1 {
   font-weight: 500;
   font-size: 32px;
@@ -29,12 +33,18 @@ code {
   margin-left: auto;
 }
 
-.navigate#navigate nav a {
-  color: #fff;
+.navigate#navigate ul li {
+  margin: 0 0.5em;
 }
 
-.navigate#navigate nav .nav-item .active a, .navigate#navigate nav .nav-item a:hover, .navigate#navigate nav .active a:focus {
-  font-weight: 500;
+.navigate#navigate nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navigate#navigate nav .nav-item a.active, .navigate#navigate nav .nav-item a:hover, .navigate#navigate nav .active a:focus, .navigate#navigate nav .nav-item.active {
+  font-weight: 400;
+  opacity: .8;
 }
 
 .signin-section h1 {

@@ -204,7 +204,10 @@ const Login = () => {
                 type='submit'
                 onClick={validInput}
                 value='Sign In'
-                style={{ backgroundColor: '#584a89', borderColor: '#584a89' }}
+                style={{
+                  backgroundColor: '#584a89',
+                  borderColor: '#584a89',
+                }}
               />
             </div>
             <div className={validInput ? 'offscreen' : { errorMsg }}>
