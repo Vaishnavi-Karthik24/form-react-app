@@ -112,9 +112,9 @@ const Login = () => {
           style={{ marginTop: '1.5em' }}>
           <p
             ref={errRef}
-            className={errMsg ? 'errmsg' : 'offscreen'}
+            className={!customer ? 'errmsg' : 'offscreen'}
             aria-live='assertive'>
-            {errMsg}
+            {errorMsg}
           </p>
           <h1 className='text-center'>Login</h1>
           <form
@@ -213,14 +213,14 @@ const Login = () => {
             <div className={validInput ? 'offscreen' : { errorMsg }}>
               {errorMsg}
             </div>
-            <div className='regist mt-3'>
+            {/* <div className='regist mt-3'>
               <p>
                 Not Registered ?
                 <a href='#' className='mx-2'>
                   Click here to register
                 </a>
               </p>
-            </div>
+            </div> */}
           </form>
         </section>
       )}

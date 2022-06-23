@@ -1,5 +1,5 @@
 import React from 'react'
-// import { BrowserRouter, Route } from 'react-router-dom'
+// import { BrowserRouter as Routes, Route } from 'react-router-dom'
 import { useRef, useState, useEffect } from 'react'
 import { AiOutlineCheck, AiOutlineClose, AiFillWarning } from 'react-icons/ai'
 import Login from './Login'
@@ -467,12 +467,12 @@ const Register = () => {
                     />
                   </div>
                   <div className='success-err'>{errMsg}</div>
-                  <div className='signin mt-4 text-center'>
+                  {/* <div className='signin mt-4 text-center'>
                     Already signed in ?
                     <span className='d-block'>
                       <p> Click here to sign in</p>
                     </span>
-                  </div>
+                  </div> */}
                 </form>
               </div>
               <div className='col-lg-4 col-md-12 col-sm-12'></div>
